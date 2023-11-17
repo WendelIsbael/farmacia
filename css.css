@@ -1,0 +1,71 @@
+
+body {
+    background-color: rgb(19, 38, 212);
+}
+
+
+
+input[type=text]
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=number]
+{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #adf;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: blueviolet;       
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=number]:focus
+{
+    width: 100%;
+}
+textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid tomato;
+    border-radius: 4px;
+    background-color: #0fffff;
+    font-size: 18px;
+    resize: none;
+}
+
+select
+{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f101;
+}
+input[type=button], input[type=submit], input[type=reset]
+
+{
+    background-color: #04AAAD;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
